@@ -1,0 +1,61 @@
+/*
+|--------------------------------------------------------------------------
+| BLOCKS.SCSS
+|--------------------------------------------------------------------------
+|
+| This file acts as a collecter for the /blocks folder
+| All partials in this folder should be included in this file!
+|
+*/
+/*
+|--------------------------------------------------------------------------
+| BLOCKS HEADER.SCSS
+|--------------------------------------------------------------------------
+*/
+header {
+  background-image: url(../assets/images/bg.jpg);
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+/*
+|--------------------------------------------------------------------------
+| BLOCKS CONTENT.SCSS
+|--------------------------------------------------------------------------
+*/
+/*
+|--------------------------------------------------------------------------
+| BLOCKS SEARCH-BAR.SCSS
+|--------------------------------------------------------------------------
+*/
+#search-bar {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  border-radius: 3px; }
+  #search-bar .form-check-label {
+    color: white;
+    cursor: pointer; }
+  #search-bar__submit {
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    color: white;
+    font-weight: 600;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  #search-bar .form-group {
+    padding: 0 5px; }
+    #search-bar .form-group select {
+      font-size: 12px; }

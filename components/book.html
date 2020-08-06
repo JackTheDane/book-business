@@ -1,0 +1,168 @@
+<div class="card book-form">
+    <div class="card-body">
+      <h4 class="card-title">
+        <i class="material-icons md-36 text-muted backArrowIcon">
+          arrow_backward
+        </i>
+      </h4>
+  
+      <form action="#" onsubmit="saveUserInfo(event)">
+        <h5 class="card-subtitle text-muted mb-2 mt-4">Personal information</h5>
+        <div class="row">
+  
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Full name">
+            </div>
+          </div>
+  
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone number">
+            </div>
+          </div>
+  
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
+            </div>
+          </div>
+  
+        </div>
+  
+        <h5 class="card-subtitle text-muted mb-2 mt-4">Business information</h5>
+        <div class="row">
+  
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" class="form-control" id="businessName" name="businessName" placeholder="Business name">
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="form-group">
+              <input type="text" class="form-control" id="address" name="address" placeholder="Address">
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="form-group">
+              <select class="custom-select form-control" name="country" id="country">
+                <option>Denmark</option>
+                <option>Sweden</option>
+                <option>Norway</option>
+                <option>Poland</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+  
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" class="form-control" id="vatNumber" name="vatNumber" placeholder="VAT number">
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="form-group">
+              <input type="number" class="form-control" id="zip" name="zip" placeholder="Zip code">
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="form-group">
+              <input type="text" class="form-control" id="city" name="city" placeholder="City">
+            </div>
+          </div>
+  
+        </div>
+  
+        <h5 class="card-subtitle text-muted mb-2 mt-4">Payment information</h5>
+
+
+        <div class="row">
+  
+          <div class="col-md-6">
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="cardHolder" name="cardHolder" placeholder="Card holder">
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group">
+
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" name="saveCredit" id="saveCredit" checked>
+                    <label class="custom-control-label" for="saveCredit">Save credit card</label>
+                  </div>
+                  
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group">
+
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" name="saveInfo" id="saveInfo" checked>
+                    <label class="custom-control-label" for="saveInfo">Save my information for next time</label>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+  
+          <div class="col-md-6">
+            <div class="row">
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <div class="input-group">
+                    <input type="text" class="form-control" id="cardNumber" name="cardNumber" placeholder="Card number">
+                    <div class="input-group-append">
+                      <span class="input-group-text" id="cardNumber">
+                        <img src="./assets/images/visa.png" style="max-height: 2rem;">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-8">
+                <div class="form-group d-flex align-items-center">
+                  <input type="text" class="form-control" id="cardMM" maxlength="2" name="cardMM" placeholder="MM">
+                  <span class="px-2"> / </span>
+                  <input type="text" class="form-control" id="cardYY" maxlength="2" name="cardYY" placeholder="YY">
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="form-group">
+                  <div class="input-group">
+                    <input type="text" class="form-control" id="CVC" name="CVC" placeholder="CVC">
+                    <div class="input-group-append">
+                      <span class="input-group-text" id="CVC">
+                        <img src="./assets/images/ccv.png" style="max-height: 2rem;">
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <button class="btn mt-3 btn-primary btn-round btn-block orderNow" value="order">Order Now</button>
+              </div>
+
+            </div>
+          </div>
+  
+        </div>
+      </form>
+  
+    </div>
+  </div>
